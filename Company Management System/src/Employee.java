@@ -1,17 +1,17 @@
 public abstract class Employee extends Person {
-    private int position;
+    private String position;
     private int promotionLevel;
-    public Employee(String name, int age, int salary,int position , int promotionLevel) {
+    public Employee(String name, int age, int salary,String position , int promotionLevel) {
         super(name, age, salary);
         this.position = position;
         this.promotionLevel = promotionLevel;
     }
 
-    public int getPosition() {
+    public String getPosition() {
         return position;
     }
 
-    public void setPosition(int position) {
+    public void setPosition(String position) {
         this.position = position;
     }
 
