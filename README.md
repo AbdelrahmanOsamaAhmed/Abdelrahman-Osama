@@ -1,2 +1,2 @@
 # Abdelrahman-Osama
-Software Engineer Student 
+Competitive programming + Personal projects
