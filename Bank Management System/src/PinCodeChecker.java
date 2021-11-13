@@ -10,6 +10,7 @@ public class PinCodeChecker {
     }
 
     public boolean checkPinCode(int pinCode){
+        System.out.println("Checking Pin Code....");
         return this.pinCode == pinCode;
     }
 }

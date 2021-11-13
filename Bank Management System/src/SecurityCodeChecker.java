@@ -9,6 +9,7 @@ public class SecurityCodeChecker {
         return securityCode;
     }
     public boolean checkSecurityCode(int securityCode){
+        System.out.println("Checking Security Code....");
         return this.securityCode == securityCode;
     }
 }
