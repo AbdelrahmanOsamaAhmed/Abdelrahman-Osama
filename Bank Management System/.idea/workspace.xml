@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5cc81532-4005-46d4-8a0f-4a8196561d64" name="Changes" comment="spaces" />
+    <list default="true" id="5cc81532-4005-46d4-8a0f-4a8196561d64" name="Changes" comment="New Quotes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bank Management System/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bank Management System/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bank Management System/PinCodeChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bank Management System/PinCodeChecker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bank Management System/SecurityCodeChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bank Management System/SecurityCodeChecker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +23,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="20qrNXjjJb3a7hlIGnYxXK2T7wy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -65,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636785437365</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="New Quotes">
+      <created>1636786186738</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1636786186738</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -78,9 +100,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="spaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="spaces" />
+    <MESSAGE value="New Quotes" />
+    <option name="LAST_COMMIT_MESSAGE" value="New Quotes" />
   </component>
 </project>
