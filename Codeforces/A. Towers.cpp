@@ -1,22 +1,22 @@
-#include <iostream>
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
-    int x; cin >> x;
-    int arr[x];
-    int freq[1001]={0};
-    for (int i = 0 ; i < x;i++){
-        cin >> arr[i];
-        freq[arr[i]]++;
-    }
-    int height=1,towers=x;
-    for(int i = 0 ; i < 1001; i++){
-        if (freq[i]>1){
-            towers = towers - freq[i] + 1;
-            if (freq[i]>height){
-                height=freq[i];
-            }
+    int n; cin >> n;
+    int x;
+    vector<int>arr;
+    map<int,int>bars;
+    for (int i = 0 ; i < n ; i++){
+        cin >> x;
+        bars[x]++;
+        if (bars[x] ==1){
+            arr.push_back(x);
         }
     }
-    cout << height << " " << towers;
+    int min = 0;
+    for (int i = 0 ; i < arr.size() ; i++){
+        if (bars[arr[i]]>min){
+            min = bars[arr[i]];
+        }
+    }
+    cout << min << " " << arr.size();
 }
