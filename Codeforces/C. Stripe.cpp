@@ -1,19 +1,18 @@
-#include <iostream>
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
-    int x,d; cin >> x;
-    int sum [x+1]={0};
-    for (int i = 1 ; i <= x; i++){
-        cin >> d;
-        sum[i] = sum[i-1] + d;
+    int n; cin >> n;
+    int arr[n];
+    cin >> arr[0];
+    for (int i = 1 ; i < n ; i++){
+        cin >> arr[i];
+        arr[i] = arr[i] + arr[i-1];
     }
-    int counter = 0;
-    for (int i = 1; i < x ; i++){
-        if (sum[i]==(sum[x]-sum[i])){
-            counter++;
+    int ways =0;
+    for (int i = 0 ; i < n-1; i++){
+        if (arr[i] == (arr[n-1]-arr[i])){
+            ways++;
         }
     }
-    cout << counter;
-    
+    cout << ways;
 }
